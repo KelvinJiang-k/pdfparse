@@ -39,7 +39,7 @@ const Page = async ({ params }: PageProps) => {
           </div>
         </div>
 
-        {/* chat box */}
+        {/* chat box */} 
         <div className='shrink-0 flex-[0.75] border-t border-gray-200 lg:w-96 lg:border-1 lg:border-t-0 '>
           <ChatWrapper />
         </div>
