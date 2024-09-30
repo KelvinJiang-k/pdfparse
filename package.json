@@ -40,6 +40,7 @@
     "react-loading-skeleton": "^3.5.0",
     "react-pdf": "^9.1.1",
     "react-resize-detector": "^11.0.1",
+    "react-textarea-autosize": "^8.5.3",
     "shadcn-ui": "^0.9.1",
     "simplebar-react": "^3.2.6",
     "tailwind-merge": "^2.5.2",
