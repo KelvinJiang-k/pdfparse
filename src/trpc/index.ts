@@ -50,7 +50,7 @@ export const appRouter = router({
     )
     .query(async ({ ctx, input }) => {
       const { userId } = ctx
-      const { cursor, fileId } = input
+      const { fileId, cursor } = input
       const limit = input.limit ?? INFINITE_QUERY_LIMIT
 
       const file = await db.file.findFirst({
