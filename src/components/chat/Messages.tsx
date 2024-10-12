@@ -51,6 +51,7 @@ const Messages = ({ fileId }: MessagesProps) => {
 
   useEffect(() => {
     if (entry?.isIntersecting) {
+      0
       fetchNextPage()
     }
   }, [entry, fetchNextPage])
