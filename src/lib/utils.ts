@@ -11,5 +11,5 @@ export function absoluteUrl(path: string) {
   // server AND deployed on vercel
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}${path}`
   // server and localhost
-  return `http://localhost:${process.env.PORT ?? 3000}${path})`
+  return `http://localhost:${process.env.PORT ?? 3000}${path}`
 }
