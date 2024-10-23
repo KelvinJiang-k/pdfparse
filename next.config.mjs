@@ -5,6 +5,7 @@ const nextConfig = {
     config.resolve.alias.encoding = false
     return config
   },
+  swcMinify: false,
 }
 
 export default nextConfig
