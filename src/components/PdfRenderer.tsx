@@ -26,7 +26,10 @@ import {
 import Simplebar from 'simplebar-react'
 import PdfFullscreen from './PdfFullscreen'
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.mjs',
+  import.meta.url,
+).toString();
 
 interface PdfRendererProps {
   url: string
